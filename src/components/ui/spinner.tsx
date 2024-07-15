@@ -1,4 +1,4 @@
-import React, { DetailedHTMLProps, HTMLAttributes } from "react";
+import React, { type DetailedHTMLProps, type HTMLAttributes } from "react";
 
 type SpinnerProps = DetailedHTMLProps<
   HTMLAttributes<SVGSVGElement>,
