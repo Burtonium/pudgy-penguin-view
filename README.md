@@ -45,3 +45,7 @@ This will create an optimized build of your Next.js project in the `./out` direc
 7. Finally, you can deploy your project to your preferred hosting platform. You can refer to the deployment guides provided by Next.js for more information on deploying to platforms like Vercel, Netlify, or Docker.
 
 Remember to configure any necessary environment variables and deployment settings specific to your hosting platform.
+
+## Any Challenges?
+
+![Leo](leo.png)
