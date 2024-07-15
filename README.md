@@ -49,3 +49,7 @@ Remember to configure any necessary environment variables and deployment setting
 ## Any Challenges?
 
 ![Leo](leo.png)
+
+## Assumptions
+
+1. I assumed that having fetching the NFTs on serverside was just to show I can do serverside, I guess? Because it's not exactly efficient if it can be done from the front end instead.
