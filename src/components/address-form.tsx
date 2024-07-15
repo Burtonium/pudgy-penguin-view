@@ -1,5 +1,4 @@
 import { zodResolver } from "@hookform/resolvers/zod";
-import { useCallback } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
@@ -27,14 +26,14 @@ const formSchema = z.object({
   address: ethereumAddressSchema,
 });
 
-const ProfileForm = () => {
+const ProfileForm = ({
+  onSubmit,
+}: {
+  onSubmit: (v: z.infer<typeof formSchema>) => void;
+}) => {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
   });
-
-  const onSubmit = useCallback(async (values: z.infer<typeof formSchema>) => {
-    console.log("Address", values.address);
-  }, []);
 
   return (
     <Form {...form}>
