@@ -7,7 +7,6 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "~/components/ui/card";
@@ -47,7 +46,7 @@ export default function Home() {
             {query.isLoading && <Spinner className="h-12 w-12" />}
             {query.isError && <div>Error: {query.error.message}</div>}
             {query.data && (
-              <div className="grid grid-cols-4">
+              <div className="grid grid-cols-4 gap-3 sm:grid-cols-2 md:grid-cols-3">
                 {query.data.map((nft) => (
                   <Card className="overflow-hidden" key={nft.tokenId}>
                     <div>
