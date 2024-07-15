@@ -1,29 +1,47 @@
-# Create T3 App
+# Pudgy Penguins NFT Viewer
 
 This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
 
-## What's next? How do I make an app with this?
-
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
-
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+## Tech stack:
 
 - [Next.js](https://nextjs.org)
 - [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
 - [Tailwind CSS](https://tailwindcss.com)
 - [tRPC](https://trpc.io)
+- [Shadcn](https://ui.shadcn.com/)
 
-## Learn More
+## Getting Started
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+To deploy your Next.js project, you can follow these simple steps:
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+1. Make sure you have Node.js installed on your machine. You can download it from the official website: [Node.js](https://nodejs.org).
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+2. Open your terminal or command prompt and navigate to the root directory of your Next.js project.
 
-## How do I deploy this?
+3. Install the project dependencies by running the following command:
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
+```
+npm install
+```
+
+4. Once the dependencies are installed, you can start the development server by running the following command:
+
+```
+npm run dev
+```
+
+This will start the Next.js development server and your project will be accessible at `http://localhost:3000`.
+
+5. You can now make changes to your project and see the updates in real-time as you save the files.
+
+6. When you are ready to deploy your project, you can build the production-ready version by running the following command:
+
+```
+npm run build
+```
+
+This will create an optimized build of your Next.js project in the `./out` directory.
+
+7. Finally, you can deploy your project to your preferred hosting platform. You can refer to the deployment guides provided by Next.js for more information on deploying to platforms like Vercel, Netlify, or Docker.
+
+Remember to configure any necessary environment variables and deployment settings specific to your hosting platform.
